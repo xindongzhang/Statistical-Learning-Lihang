@@ -10,7 +10,6 @@ MaxIter = 50;
 
 [w, b] = svm(X, L);
 
-
 Neg_X = X(find(L == -1), :);
 Neg_L = L(find(L == -1));
 
